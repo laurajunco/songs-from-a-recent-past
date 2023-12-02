@@ -1,0 +1,6 @@
+.tree-label {
+  fill: var(--background);
+  font-size: 30px;
+  font-weight: bold;
+  pointer-events: none;
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Unique names of songs",
+    "id": "Unique names of songs",
+    "width": "3",
+    "chart": "number of",
+    "x": "Name",
+    "y": "",
+    "z": ""
+  },
+  {
+    "title": "Number of artists",
+    "id": "Number of artists",
+    "width": "3",
+    "chart": "number of",
+    "x": "Artist",
+    "y": "",
+    "z": ""
+  },
+  {
+    "title": "Country with most top songs",
+    "id": "Country with most top songs",
+    "width": "3",
+    "chart": "most of",
+    "x": "Country",
+    "y": "",
+    "z": ""
+  },
+  {
+    "title": "Artist with most top songs",
+    "id": "Artist with most top songs",
+    "width": "3",
+    "chart": "most of",
+    "x": "Artist",
+    "y": "",
+    "z": ""
+  },
+  {
+    "title": "Songs by city",
+    "id": "Songs by city",
+    "width": "6",
+    "chart": "bar",
+    "x": "City",
+    "y": "",
+    "z": ""
+  },
+  {
+    "title": "Songs by energy, danceability and duration",
+    "id": "Songs by energy, danceability and duration",
+    "width": "6",
+    "chart": "scatter plot",
+    "x": "energy",
+    "y": "danceability",
+    "z": "duration_ms"
+  },
+  {
+    "title": "Songs by country",
+    "id": "Songs by country",
+    "width": "4",
+    "chart": "circle pack",
+    "x": "Country",
+    "y": "",
+    "z": ""
+  },
+  {
+    "title": "Songs by decade",
+    "id": "Songs by decade",
+    "width": "4",
+    "chart": "treemap",
+    "x": "Decade",
+    "y": "",
+    "z": ""
+  },
+  {
+    "title": "Songs by key",
+    "id": "Songs by key",
+    "width": "4",
+    "chart": "pie",
+    "x": "key",
+    "y": "",
+    "z": ""
+  }
+]

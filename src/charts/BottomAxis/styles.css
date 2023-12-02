@@ -1,0 +1,11 @@
+.x-axis text {
+  text-anchor: end;
+  transform: rotate(-90deg);
+  dominant-baseline: middle;
+}
+
+.x-axis .label {
+  transform: none;
+  text-anchor: middle;
+  dominant-baseline: text-after-edge;
+}

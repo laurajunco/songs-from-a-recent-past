@@ -1,0 +1,7 @@
+.dashboard {
+  width: calc(100% + 3px);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-items: stretch;
+  position: relative;
+}

@@ -1,0 +1,149 @@
+@font-face {
+  font-family: Alpina;
+  src: url('assets/GT-Alpina-Extended-Regular-Italic.ttf');
+  font-weight: normal;
+}
+/* Red1 */
+.app.red {
+  --background: #fff9f9;
+  --main-color: #e10000;
+  --add-color: #e1000015;
+  --sel-color: #0400d8;
+  --border: 3px solid var(--main-color);
+}
+
+/* Orange */
+.app.orange {
+  --background: #ffe7c3;
+  --main-color: #272300;
+  --add-color: #44321615;
+  --sel-color: #e98282;
+  --border: 3px solid var(--main-color);
+}
+
+/* Blue */
+.app.blue {
+  --background: #ffe2e9;
+  --main-color: #0400d8;
+  --sel-color: #23c4e4;
+  --add-color: #0400d815;
+  --border: 3px solid var(--main-color);
+}
+
+body {
+  font-size: 20px;
+  font-family: Alpina, serif;
+  overflow-x: hidden;
+}
+
+main {
+  color: var(--main-color);
+  background-color: var(--background);
+  min-height: calc(100vh - 90px);
+  transition: all 0.5s;
+}
+
+h1 {
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 15px 0;
+  text-align: left;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.grid-3 {
+  grid-column: span 3;
+}
+
+.grid-4 {
+  grid-column: span 4;
+}
+
+.grid-6 {
+  grid-column: span 6;
+}
+
+.grid-8 {
+  grid-column: span 8;
+}
+
+.grid-9 {
+  grid-column: span 9;
+}
+
+.grid-12 {
+  grid-column: span 12;
+}
+
+/* SVG */
+text {
+  font-size: 18px;
+  fill: var(--main-color);
+}
+
+line {
+  stroke: var(--main-color);
+  stroke-width: 2px;
+}
+
+.tick {
+  stroke-width: 1;
+  stroke-dasharray: 2 8;
+}
+
+.bucket {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.single {
+  fill: var(--main-color);
+  transition: fill 0.5s;
+  pointer-events: none;
+}
+
+.single.true {
+  fill: var(--sel-color);
+  opacity: 1;
+}
+
+.group-container:hover .single {
+  fill: var(--sel-color);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .grid-3,
+  .grid-4 {
+    grid-column: span 6;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .grid-3,
+  .grid-4,
+  .grid-6,
+  .grid-8,
+  .grid-9,
+  .grid-12 {
+    grid-column: span 12;
+  }
+}

@@ -1,0 +1,50 @@
+.header {
+  padding: 25px 25px;
+  display: flex;
+  border-bottom: var(--border);
+  align-items: center;
+  font-size: 3.5vw;
+}
+
+.header .colors {
+  display: flex;
+}
+
+.header .listen {
+  cursor: pointer;
+  position: relative;
+}
+
+.header .listen .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color);
+  mix-blend-mode: lighten;
+  color: var(--main-color);
+}
+
+.header h1 {
+  flex-grow: 1;
+}
+
+.header .colors .color {
+  height: 3vw;
+  width: 3vw;
+  border-radius: 100%;
+  margin-left: 5px;
+  cursor: pointer;
+  border: var(--border);
+}
+
+.color.red {
+  background-color: #ff0000;
+}
+
+.color.blue {
+  background-color: #0400d8;
+}
+
+.color.orange {
+  background-color: #ffd89e;
+}

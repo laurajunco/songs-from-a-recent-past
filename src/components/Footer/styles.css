@@ -1,0 +1,34 @@
+.footer .bottom {
+  line-height: 2;
+  background: var(--main-color);
+  text-align: center;
+  color: white;
+}
+
+@keyframes marquee {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: -50%;
+  }
+}
+
+.marquee {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--background);
+}
+
+.marquee-inner {
+  position: relative;
+  display: flex;
+  width: fit-content;
+}
+
+.marquee-inner p {
+  white-space: nowrap;
+  line-height: 2.5;
+  animation: marquee 300s linear infinite;
+  color: var(--main-color);
+}

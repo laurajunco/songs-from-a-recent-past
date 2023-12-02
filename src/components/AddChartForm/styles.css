@@ -1,0 +1,52 @@
+.dashboard-item.add .select-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline;
+}
+
+.dashboard-item.add {
+  background-color: var(--add-color);
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+input {
+  background-color: var(--background);
+}
+
+input,
+select {
+  line-height: 1.5;
+  border: none;
+  padding: 5px;
+  opacity: 1;
+  margin-bottom: 15px;
+  color: var(--main-color);
+}
+
+input::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder,
+::-webkit-input-placeholder {
+  color: var(--main-color);
+  opacity: 1;
+}
+
+button {
+  background-color: var(--main-color);
+  border: none;
+  color: var(--background);
+  font-family: Alpina, serif;
+  line-height: 2;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}

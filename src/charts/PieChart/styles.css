@@ -1,0 +1,10 @@
+.pie-container .bucket {
+  stroke: var(--background);
+  stroke-width: 2px;
+}
+
+.pie-container .label {
+  font-size: 20px;
+  font-weight: bold;
+  pointer-events: none;
+}

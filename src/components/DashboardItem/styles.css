@@ -1,0 +1,16 @@
+.dashboard-item {
+  position: relative;
+  padding: 10px 12px;
+  border-bottom: var(--border);
+  border-right: var(--border);
+}
+
+.dashboard-item .close {
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  padding: 2px 4px;
+  line-height: 0.8;
+}

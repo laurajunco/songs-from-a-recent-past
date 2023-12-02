@@ -1,0 +1,10 @@
+.y-axis text {
+  text-anchor: end;
+  transform: translate(-5px, 4px);
+}
+
+.y-axis .label {
+  text-anchor: middle;
+  transform: rotate(-90deg);
+  dominant-baseline: text-before-edge;
+}
